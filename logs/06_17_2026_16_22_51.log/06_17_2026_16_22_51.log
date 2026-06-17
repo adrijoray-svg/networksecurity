@@ -1,9 +1,0 @@
-[2026-06-17 16:22:54,272] 17 root - INFO - Initiate the data ingestion
-[2026-06-17 16:22:57,451] 53 root - INFO - Performed the train test split
-[2026-06-17 16:22:57,451] 57 root - INFO - Exporting the train and test file path.
-[2026-06-17 16:22:57,497] 62 root - INFO - Exporting train and test file path
-[2026-06-17 16:22:57,498] 19 root - INFO - Data Ingestion Completed
-[2026-06-17 16:22:57,630] 35 root - INFO - Required number of columns:2
-[2026-06-17 16:22:57,631] 36 root - INFO - Number of columns Dataframe has:31
-[2026-06-17 16:22:57,631] 35 root - INFO - Required number of columns:2
-[2026-06-17 16:22:57,631] 36 root - INFO - Number of columns Dataframe has:31

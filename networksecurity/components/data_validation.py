@@ -88,7 +88,7 @@ class DataValidation:
             os.makedirs(dir_path,exist_ok = True)
 
             train_dataframe.to_csv(self.data_validation_config.valid_train_file_path, index=False, header = True)
-            test_dataframe.to_csv(self.data_validation_config.valid_test_file_path, index = True, header = True)
+            test_dataframe.to_csv(self.data_validation_config.valid_test_file_path, index = False, header = True)
 
             data_validation_artifact = DataValidationArtifact(
                 validation_status=status,
