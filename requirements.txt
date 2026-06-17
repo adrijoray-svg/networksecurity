@@ -10,4 +10,7 @@ ipykernel
 pymongo
 certifi
 pymongo[srv]==3.11
+scipy
+dill
+pyaml
 #-e .

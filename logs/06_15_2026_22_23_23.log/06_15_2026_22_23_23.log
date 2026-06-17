@@ -1,4 +1,0 @@
-[2026-06-15 22:23:23,353] 15 root - INFO - Initiate the data ingestion
-[2026-06-15 22:23:25,094] 53 root - INFO - Performed the train test split
-[2026-06-15 22:23:25,094] 57 root - INFO - Exporting the train and test file path.
-[2026-06-15 22:23:25,140] 62 root - INFO - Exporting train and test file path
