@@ -12,6 +12,7 @@ TRAIN_FILE_NAME:str = "train.csv"
 TEST_FILE_NAME:str = "test.csv"
 PREPROCESSING_OBJECT_FILE_NAME:str = "preprocessor.pkl"
 SAVED_MODEL_DIR = os.path.join("saved_models")
+TRAINING_BUCKET_NAME = "ar-network-security-proj"
 
 SCHEMA_FILE_PATH = os.path.join("data_schema","schema.yml")
 
