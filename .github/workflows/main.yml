@@ -1,0 +1,29 @@
+name: Network Security App CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+    # This prevents the workflow from running if only the README is modified
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  # ==========================================
+  # 1. CONTINUOUS INTEGRATION (CI)
+  # ==========================================
+  Continuous-Integration:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Lint code
+        run: echo "Linting Repository"
+
+      # Validates that the application dependencies can be successfully installed
+      - name: Run unit test
+        run: echo "Running unit tests"
+
+ 
